@@ -4,10 +4,10 @@
 
 ## 1. Upload File từ Máy Tính - Tương tự Dentalshare Exocad
 
-Để đưa file từ phần mềm thiết kế (Exocad) lên hệ thống, bạn sử dụng công cụ **Huong Cam Tao Sync**.
+Để đưa file từ phần mềm thiết kế (Exocad) lên hệ thống, bạn sử dụng công cụ **Huong Cam Tao Viewer**.
 
 
-   1. Tải và mở file `Huong_Cam_Tao_Sync.exe` trên máy tính.Lưu file ở 1 vị trí cố định, ưu tiên tạo 1 thư mục riêng để chứa các thông tin config.
+   1. Tải và mở file `Huong_Cam_Tao_Viewer.exe` trên máy tính.Lưu file ở 1 vị trí cố định, ưu tiên tạo 1 thư mục riêng để chứa các thông tin config.
    2. Cấu hình
    
       <img width="523" height="765" alt="image" src="https://github.com/user-attachments/assets/7ae3420d-00dc-4aa5-bf79-0894e9fb2a7c" />
