@@ -7,26 +7,25 @@
 Để đưa file từ phần mềm thiết kế (Exocad) lên hệ thống, bạn sử dụng công cụ **Huong Cam Tao Sync**.
 
 
-### Bước 1: Cấu hình ban đầu
-1. Tải và mở file `Huong_Cam_Tao_Sync.exe` trên máy tính.Lưu file ở 1 vị trí cố định, ưu tiên tạo 1 thư mục riêng để chứa các thông tin config.
-2. Cấu hình
-
-   <img width="523" height="765" alt="image" src="https://github.com/user-attachments/assets/7ae3420d-00dc-4aa5-bf79-0894e9fb2a7c" />
-
-   Nhập các trường thông tin:
-   - **Server Address**: Địa chỉ web của hệ thống (mặc đinh hiện tại là: `https://caohuongls.pythonanywhere.com`). Trong  tương lai sẽ điều chỉnh lại nếu cần.
-   - **Username/Password**: Tài khoản được cung cấp. Tài khoản thử nghiệm: demo/12345
-   - **Watch Folder**: Chọn thư mục chứa các file thiết kế của bạn (thường là thư mục CAD-Data của Exocad).
-   - **Sync Start Date**: Chọn ngày bắt đầu đồng bộ (các file cũ trước ngày này sẽ không bị đẩy lên).
-   - **Auto Start with windows**: Cho chương trình khởi đọng cùng window hay không.
-
-
-3. Vận hành
-- Sau khi thiết lập, công cụ sẽ chạy ẩn dưới thanh Taskbar (biểu tượng logo Cam Táo).
-- Khi muốn gửi file để xem trước. Vào mục Tool - Export html . Lưu file vào thư mục bên trong dự án Exocad đang làm.
-- Mỗi khi xuất hiện file html mới trong Exocad, công cụ sẽ tự động nhận diện và tải lên server. Trung bình dưới 10s sẽ có thông báo gửi về và cung cấp đường dẫn link và tự động lưu link vào bộ nhớ tạm. <img width="361" height="179" alt="image" src="https://github.com/user-attachments/assets/a8179266-b20d-44fc-979b-c7bc3e12d4c8" />
-
-- Lấy link chia sẻ : nhấn chuột phải vào biểu tượng dưới **Taskbar** -> **Lịch sử Upload** để copy lại các link đã upload. <img width="503" height="418" alt="image" src="https://github.com/user-attachments/assets/684dce24-be11-4320-970e-8308a9b03896" />
+   1. Tải và mở file `Huong_Cam_Tao_Sync.exe` trên máy tính.Lưu file ở 1 vị trí cố định, ưu tiên tạo 1 thư mục riêng để chứa các thông tin config.
+   2. Cấu hình
+   
+      <img width="523" height="765" alt="image" src="https://github.com/user-attachments/assets/7ae3420d-00dc-4aa5-bf79-0894e9fb2a7c" />
+   
+      Nhập các trường thông tin:
+      - **Server Address**: Địa chỉ web của hệ thống (mặc đinh hiện tại là: `https://caohuongls.pythonanywhere.com`). Trong  tương lai sẽ điều chỉnh lại nếu cần.
+      - **Username/Password**: Tài khoản được cung cấp. Tài khoản thử nghiệm: demo/12345
+      - **Watch Folder**: Chọn thư mục chứa các file thiết kế của bạn (thường là thư mục CAD-Data của Exocad).
+      - **Sync Start Date**: Chọn ngày bắt đầu đồng bộ (các file cũ trước ngày này sẽ không bị đẩy lên).
+      - **Auto Start with windows**: Cho chương trình khởi đọng cùng window hay không.
+   
+   
+   3. Vận hành
+   - Sau khi thiết lập, công cụ sẽ chạy ẩn dưới thanh Taskbar (biểu tượng logo Cam Táo).
+   - Khi muốn gửi file để xem trước. Vào mục Tool - Export html . Lưu file vào thư mục bên trong dự án Exocad đang làm.
+   - Mỗi khi xuất hiện file html mới trong Exocad, công cụ sẽ tự động nhận diện và tải lên server. Trung bình dưới 10s sẽ có thông báo gửi về và cung cấp đường dẫn link và tự động lưu link vào bộ nhớ tạm. <img width="361" height="179" alt="image" src="https://github.com/user-attachments/assets/a8179266-b20d-44fc-979b-c7bc3e12d4c8" />
+   
+   - Lấy link chia sẻ : nhấn chuột phải vào biểu tượng dưới **Taskbar** -> **Lịch sử Upload** để copy lại các link đã upload. <img width="503" height="418" alt="image" src="https://github.com/user-attachments/assets/684dce24-be11-4320-970e-8308a9b03896" />
 
 
 ---
