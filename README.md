@@ -14,7 +14,7 @@
    
       Nhập các trường thông tin:
       - **Server Address**: Địa chỉ web của hệ thống (mặc đinh hiện tại là: `https://caohuongls.pythonanywhere.com`). Trong  tương lai sẽ điều chỉnh lại nếu cần.
-      - **Username/Password**: Tài khoản được cung cấp. Tài khoản thử nghiệm: demo/12345
+      - **Username/Password**: Tài khoản được cung cấp. **Tài khoản thử nghiệm: demo/12345**
       - **Watch Folder**: Chọn thư mục chứa các file thiết kế của bạn (thường là thư mục CAD-Data của Exocad).
       - **Sync Start Date**: Chọn ngày bắt đầu đồng bộ (các file  html cũ trước ngày này sẽ không bị đẩy lên).
       - **Auto Start with windows**: Cho chương trình khởi đọng cùng window hay không.
